@@ -1,0 +1,500 @@
+  239  git checkout f1
+  240  touch f1data.txt
+  241  vi f1data.txt 
+  242  cat f1data.txt 
+  243  git status 
+  244  git remote -r
+  245  history
+  246  git cheeckout masters
+  247  git checkout masters
+  248  git checkout develop
+  249  git checkout master
+  250  gt fetch origin master
+  251  git fetch origin master
+  252  touch pihu.java
+  253  git status
+  254  git pull
+  255  git status
+  256  vi 4913
+  257  add 4913
+  258  git add 4913
+  259  sit status
+  260  git status
+  261  git add f1data.txt 
+  262  git status
+  263  git commit -m "both 4913 and f1data.txt"
+  264  git push 
+  265  git status
+  266  ls
+  267  vi z.txt 
+  268  git status
+  269  vi z.txt 
+  270  cat z.txt 
+  271  ls
+  272  git status
+  273  ls -l
+  274  cat 4913
+  275  cat 5036
+  276  ls
+  277  vi a.txt 
+  278  git status
+  279  git add a.txt
+  280  git add z.txt 
+  281  git status
+  282  git add 5036
+  283  git status
+  284  git commit -m "added 3 files"
+  285  git status
+  286  git push
+  287  ls
+  288  vi z.txt 
+  289  git status
+  290  git pull
+  291  git pull
+  292  git log
+  293  git remote -l
+  294  git remote -v
+  295  ls
+  296  cd..
+  297  cd ..
+  298  cd Training1/
+  299  git remote -v
+  300  git log
+  301  ls -a
+  302  git remote add my_origin https://github.com/dharma0402/training_class.git
+  303  git remote -v
+  304  git push my_origin master
+  305  git branch -a
+  306  git push my_origin develop
+  307  cat ~/.ssh/id_rsa.pub 
+  308  ssh-keygen
+  309  ssh-keygen
+  310  cat ~/.ssh/id_rsa.pub 
+  311  git remote -v
+  312  git remote add my_ssh_origin git@github.com:dharma0402/training_class.git
+  313  git remote -v
+  314  git push my_ssh_origin master
+  315  git log
+  316  git remote -v
+  317  ls
+  318  cd ..
+  319  ls
+  320  mkdir training_test
+  321  cd training_test/
+  322  git init
+  323  ls -l
+  324  ls -a
+  325  touch abc.txt
+  326  git status
+  327  add abc.txt 
+  328  git status
+  329  git add abc.txt 
+  330  git status
+  331  git commit -m "added abc.txt file"
+  332  git remote -v
+  333  git remote add origin https://github.com/dharma0402/training_test_demo.git
+  334  git remote -v
+  335  git status
+  336  git log
+  337  git push
+  338  git push origin master
+  339  git log
+  340  touch a.txt
+  341  git add a.txt 
+  342  git status
+  343  git rm --cached a.txt 
+  344  git status
+  345  add a.txt 
+  346  git add a.txt 
+  347  git status
+  348  vi a.txt 
+  349  cat a.txt 
+  350  git status
+  351  git commit -m "add a.txt"
+  352  got log
+  353  git log
+  354  git show 
+  355  ls
+  356  git status
+  357  git add a.txt 
+  358  git status
+  359  git commit -m "modified  a.txt"
+  360  git log
+  361  git push origin master
+  362  git log
+  363  git rm help
+  364  git rm --hle
+  365  ls
+  366  rm abc.txt 
+  367  ls
+  368  git ststus
+  369  git status
+  370  git restore abc.txt
+  371  git status
+  372  rm abc.txt
+  373  ls
+  374  git status
+  375  git push origin master
+  376  git rm abc.txt 
+  377  git status
+  378  git commit -m"deleted:    abc.tx"
+  379* 
+  380  git status
+  381  git log
+  382  git push origin master
+  383  ls
+  384  git log
+  385* 
+  386  git log
+  387  ls
+  388  git status
+  389  git push origin master
+  390  git log
+  391  git reset --hard 010713d8cb254697d72df5b848623322f08f120a
+  392  git log
+  393  git push origin master 
+  394  git push --force origin master 
+  395  git log
+  396  touch d.txt
+  397* 
+  398  git add d.txt 
+  399  git commit -m "added d.txt"
+  400  git status
+  401  git  log
+  402  git push origin master 
+  403  git  log
+  404  git reset --soft 7bda73031c045746669584f70862a456cff1b979 
+  405  git  log
+  406  ls
+  407  git status
+  408  git commit -m "added a, d.txt"
+  409  git status
+  410  git  log
+  411  git push
+  412* 
+  413  git pull 
+  414  git pull origin master
+  415  git log
+  416* 
+  417  git status
+  418  git reset --soft 7bda73031c045746669584f70862a456cff1b979
+  419  git log
+  420  git status
+  421  git commit -m "modified a ,d .txt"
+  422  git status
+  423  git push --force origin master
+  424  git log
+  425  git branch develop
+  426  git branch 
+  427  git branch -a
+  428  git push origin develop 
+  429  git branch -a
+  430  git log
+  431  git checkout 848b744c2017cc01c9f67ade6613cc2178f55827
+  432  git log
+  433  git branch testing
+  434  git checkout testing 
+  435  git log
+  436  git checkout master 
+  437  touch s.txt
+  438  git add s.txt 
+  439  git commit -m "s.txt"
+  440  touch f.txt
+  441  git add f.txt 
+  442  git commit -m "f.txt"
+  443  touch g.txt
+  444  git add g.txt 
+  445  git commit -m "g.txt"
+  446  git status
+  447  git log
+  448  git push origin master 
+  449  git log
+  450   git checkout 64fbaabd585df9fa0d6d42a241f324c0aec17955
+  451  git branch  dev
+  452  git log
+  453  git checkout dev
+  454  ls
+  455  touch h.txt
+  456  git add h.txt
+  457  git commit  -m " h.txt "
+  458  git log
+  459  git  checkout master 
+  460  git log
+  461  git push origin master 
+  462  git  checkout dev
+  463  git push 
+  464  git push origin dev
+  465  git log
+  466  git checkout testing 
+  467  touch j.txt
+  468  git add j.txt 
+  469  git commit -m"j.txt" 
+  470  git checkout master 
+  471* git 
+  472  git status 
+  473  git log
+  474  git push origin testing 
+  475  git log
+  476  git branch 
+  477  git checkout master 
+  478  ls
+  479  git checkout dev
+  480  ls
+  481  git checkout develop 
+  482  ls
+  483  git checkout dev
+  484  git log
+  485  git checkout develop 
+  486  git merge dev
+  487  git log
+  488  git push origin develop 
+  489  git config
+  490  git config --global
+  491  git config --global user.name
+  492  git config --global user.email
+  493  ode .
+  494  git checkout master 
+  495  cd ..
+  496  mkdir training_test2
+  497  cd training_test22
+  498  cd training_test2
+  499  git config --global user.email
+  500  git init
+  501  ls -a
+  502  ls -lart
+  503  touch index.html
+  504  vi index.html 
+  505  git status
+  506  git add index.html 
+  507  git status
+  508  vi index2.html 
+  509  ls
+  510  git status
+  511  vi contact.html 
+  512  git status
+  513  vi 1.html 
+  514  git status
+  515  vi 2.html 
+  516  git add index2.html 
+  517  git status
+  518  git add 1.html 
+  519  git add 2.html 
+  520  git add contact.html 
+  521  git commit -m "initial commit"
+  522  git status
+  523  touch about.html
+  524  touch monuments.html
+  525  git status
+  526  git add -a
+  527  git add -A
+  528  git status
+  529  git commit -m "new file  commit"
+  530  git status
+  531  git status
+  532   clear
+  533  history 
+  534  git status
+  535  git status
+  536  git checkout contact.html
+  537  git status
+  538  vi contact.html 
+  539  git status
+  540  git checkout contact.html
+  541  git status
+  542  git log
+  543  git log -p -1
+  544  git status
+  545  ls
+  546  ls-l
+  547  git status
+  548  vi a.txt
+  549  vi b.txt
+  550  git status
+  551  git diff
+  552   git add a.txt 
+  553  git diff
+  554  vi a.txt
+  555  git diff
+  556  git status
+  557  git diff --staged 
+  558  git diff --staged 
+  559  git diff 
+  560  git status
+  561  git checkout -f
+  562  git diff 
+  563  git status
+  564  cat a.txt
+  565  ls
+  566  git status
+  567  git commit -a -m "skipped staging area"
+  568  git status 
+  569  git commit -a -m "skipped staging area"
+  570  git commit -a -m "skipped staging area"
+  571  git add b.txt 
+  572  git status 
+  573  git commit -a -m "skipped staging area"
+  574  git status 
+  575  git log
+  576  git status 
+  577  ls
+  578  ls -a
+  579  touch weast.html
+  580  git commit  -a -m "adding weast"
+  581  git add weast.html 
+  582  git status
+  583  git commit  -a -m "adding weast"
+  584  git rm weast.html 
+  585  ls
+  586  touch weast.html
+  587  git rm --catched weast.html 
+  588  git rm --catched 
+  589  git status
+  590  ls
+  591  git rm weast.html 
+  592  git status
+  593  git commit  -a -m "removing weast"
+  594  git status
+  595  git add weast.html 
+  596  git commit  -a -m "removing weast"
+  597  git status
+  598  git log
+  599  git status -s
+  600  ls
+  601  vi 1.html 
+  602  vi 2.html 
+  603  vi b.txt 
+  604  git status -s
+  605  git add 1.html 
+  606  git status -s
+  607  vi 1.html 
+  608  git status -s
+  609  git add 1.html 
+  610  git status -s
+  611  touch .gitignore
+  612  touch .gitignore
+  613  git status 
+  614  git checkout 2.html b.txt
+  615  git status 
+  616  rm .b.txt.swx 
+  617  git status 
+  618  rm 4913 
+  619  git status 
+  620  touch mylogs.log
+  621  vi mylogs.log 
+  622  cat mylogs.log 
+  623  vi .gitignore 
+  624  git status 
+  625  rm .gitignore.swx 
+  626  git status 
+  627  vi .gitignore 
+  628  git status 
+  629  git add -A
+  630  git status 
+  631  git commit 1.html  -m " modified:   1.html"
+  632  git status 
+  633  vi .gitignore 
+  634  git status 
+  635  git rm --catched
+  636  git status 
+  637  git add -A
+  638  git status 
+  639  git commit -m" ignored .gitignore"
+  640  git status 
+  641  git status 
+  642  clear
+  643  ls
+  644  git log -p -3
+  645  git status
+  646  clear
+  647  git status
+  648  git branch 
+  649  git branch feature1
+  650  git branch 
+  651  git ceckout feature1
+  652  git checkout feature1
+  653  git status
+  654  ls
+  655  git status
+  656  vi contact.html 
+  657  git status
+  658  git add -a
+  659  git add -A
+  660  git status
+  661  git commit -m "finally fixed "
+  662  git status
+  663  git checkout master
+  664  git checkout feature1 
+  665  git commit -m "finally fixed "
+  666  git checkout master
+  667  git status
+  668  git checkout feature1 
+  669  git status
+  670  git checkout master
+  671  git log -p -2
+  672  git merge feature1 
+  673  git log -p -2
+  674  git branch 
+  675  git merge feature1 
+  676  git checkout master
+  677  git checkout -b flowerintigration
+  678  git checkout master
+  679  git checkout flowerintigration 
+  680  git status
+  681  vi minimal file
+  682  git status
+  683  git add -A
+  684  git status
+  685  git commit -m"added minimal"
+  686  git status
+  687  git checkout master
+  688  git status
+  689  git checkout flowerintigration 
+  690  git status
+  691  git status
+  692  git checkout master
+  693  git status
+  694  git checkout flowerintigration 
+  695  git status
+  696  git checkout feature1 
+  697  git branch 
+  698  git checkout flowerintigration 
+  699  git checkout master
+  700  git remote
+  701  clear
+  702  git remote add origin https://github.com/dharmendhar7777/git_in_1.git
+  703  git remote
+  704  git remote add origin_master1 https://github.com/dharmendhar7777/git_in_1.git
+  705  git remote
+  706  git remote remove origin_master1 https://github.com/dharmendhar7777/git_in_1.git
+  707  git remote remote origin
+  708  git remote remove origin
+  709  git remote 
+  710  git push origin_master1 
+  711  git remote -v
+  712  git push origin_master1 master 
+  713  git sshkegen
+  714  git ssh-kegen
+  715  git ssh hel
+  716  history 
+  717  cat ~/.ssh/id_rsa.pub
+  718  git push origin_master1 master
+  719  git remote -v
+  720  git checkout feature1  flowerintigration 
+  721  git checkout feature1  
+  722  git branch 
+  723  git checkout flowerintigration 
+  724  git checkout origin_master1/master  flowerintigration 
+  725  git push origin_master1 flowerintigration 
+  726  git branch 
+  727  git checkout feature1 
+  728  git push origin_master1 feature1 
+  729  git branch 
+  730  git branch 
+  731  git push -u origin_master1 feature1 
+  732  git push
+  733  history 
+  734  cat ~/
+  735  cat ~/.bash_history 
+  736  git checkout master 
+  737  history 
+  738  history > history.txt
